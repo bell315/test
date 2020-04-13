@@ -1,0 +1,24 @@
+.clearfix::after{
+	content:"";
+	disply:block;
+	clear :both;
+}
+.boxes{
+	  /*中央よせ*/
+    margin: 0 auto;
+	width: 600px;
+    background-color: yellow;
+}
+.box1{
+	width: 150px;
+	height: 400px;
+	background-color: orange;
+	float: left;
+}
+.box2{
+	width:  250px;
+	height: 400px;
+	background-color: red;
+	float: right;
+}
+
